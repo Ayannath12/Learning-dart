@@ -8,8 +8,14 @@ void main() {
   var name;
   name = 10;
   name = 'ayan';
+  name = true;
+  name = [
+    {"name": "Rajib"},
+    {"name": "Rajib"},
+    {"name": "Rajib"},
+  ];
 
-  print(name);
+  print(name[0]);
 
   dynamic obj;
   obj = 'akkk';
